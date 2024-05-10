@@ -147,12 +147,14 @@ section#bimg {
       font-family: 'Montserrat', sans-serif;
       margin: 0px;
     }
+
     p {
       font-size: 18px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       margin: 0px;
     }
+
     a {
       color: white;
       font-size: 12px;
@@ -166,6 +168,7 @@ section#bimg {
     }
   }
 }
+
 /* Bimg end */
 
 /* Intro start */
@@ -176,35 +179,80 @@ section#intro {
 
   div.left {
     flex: 2;
+
     h4 {
       font-size: 13px;
       color: #14bf98;
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
     }
+
     h2 {
       font-size: 28px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
     }
+
     p {
       font-size: 16px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       color: gray;
     }
+
     h3 {
       font-size: 16px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 700;
     }
   }
+
   div.right {
     flex: 3;
 
     img {
       width: 100%;
+      width: 610px;
+      height: 410px;
     }
   }
 }
+
 /* Intro end */
+
+/* Cards start */
+section#cards {
+  padding: 128px 0px;
+  display: flex;
+  text-align: left;
+  gap: 8px;
+
+  div.card {
+    div.Hexagon {
+      img {
+        width: 96px;
+        height: 96px;
+      }
+
+      i {
+        font-size: 35px;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+      }
+    }
+
+    h4 {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      color: gray;
+    }
+  }
+}
+
+/* Cards end */
