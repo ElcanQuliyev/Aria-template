@@ -358,6 +358,7 @@ section#services {
 
 /* Testimonials start */
 section#testimonial {
+  padding: 64px 0px;
   div.testtext {
     text-align: center; 
     margin-bottom: 32px;
