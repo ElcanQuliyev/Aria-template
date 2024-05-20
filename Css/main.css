@@ -419,8 +419,10 @@ section#callme {
     display: flex;
     gap: 32px;
     font-family: 'Montserrat', sans-serif;
+
     div.left {
       color: white;
+
       h4 {
         color: #14bf98;
         font-size: 13px;
@@ -433,11 +435,12 @@ section#callme {
       }
 
       p {
-         font-size: 16px;
+        font-size: 16px;
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
       }
-      i{
+
+      i {
         font-size: 10px;
         color: #14bf98;
       }
@@ -455,13 +458,16 @@ section#callme {
         border: 1px solid #39728f;
         font-family: 'Open Sans', sans-serif;
       }
-      input::placeholder{
+
+      input::placeholder {
         color: white;
       }
-      p {   
+
+      p {
         font-family: 'Open Sans', sans-serif;
         color: white;
-        a{
+
+        a {
           text-decoration: underline;
           color: white;
         }
@@ -482,3 +488,43 @@ section#callme {
 }
 
 /* Call Me end */
+
+/* Project start */
+section#project {
+  padding: 128px 0px;
+
+  div.projectstitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+    h4 {
+      color: #14bf98;
+      font-weight: 400;
+      font-size: 13px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 28px;
+    }
+  }
+
+  div.projectsimg {
+    display: grid;
+    padding: 64px 64px;
+  }
+
+  img {
+    width: 172px;
+    height: 168px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+/* Project end*/
